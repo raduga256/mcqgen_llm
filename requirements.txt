@@ -3,3 +3,12 @@ langchain
 streamlit
 python-dotenv
 PyPDF2
+
+
+#this will search the repo for setup.py and install the listed packages in the current directory
+#when requirements.txt is run, it will install the package in the current directory
+-e .
+
+
+#it should be able to create a folder>> mcqgenerator.info under the project folder.
+#it keeps all the metadata of the project.
